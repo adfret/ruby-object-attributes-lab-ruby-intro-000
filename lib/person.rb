@@ -1,7 +1,7 @@
 class Person
 
-  attr_reader :name, :job
-  attr_writer :name, :job
+  attr_setter :name, :job
+
   def name=(person_name)
     @name = person_name
   end
